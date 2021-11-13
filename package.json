@@ -1,0 +1,29 @@
+{
+  "name": "typescript-starter-default",
+  "version": "1.0.0",
+  "description": "simple starter typescript development environment",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier 'src/**/*.ts'",
+    "prettier:fix": "prettier --write 'src/**/*.ts'"
+  },
+  "keywords": [
+    "typescript",
+    "boilerplate",
+    "starter",
+    "vscode"
+  ],
+  "author": "tancredesimonin",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^19.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
+    "prettier": "^2.4.1"
+  }
+}
