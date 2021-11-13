@@ -1,5 +1,5 @@
-export function test() {
-  return 'blabla';
+export default function test() {
+  console.log('hello you');
 }
 
 test();
