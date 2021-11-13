@@ -4,6 +4,10 @@ Fully Configured environment for Typescript projects, still not opinionated.
 
 Best choice for building libraries or small components not related to specific frameworks.
 
+## Why ?
+
+I hate configuring environment on every new project, and seeing most boilerplates are very opinionated I just made this short one.
+
 ## 💎 Batteries included:
 
 - Typescript
