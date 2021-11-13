@@ -1,7 +1,7 @@
 {
   "name": "typescript-starter-default",
   "version": "1.0.0",
-  "description": "simple starter typescript development environment",
+  "description": "Fully configured environment for Typescript projects, still not opinionated.",
   "main": "./build/index.js",
   "scripts": {
     "prettier": "prettier  \"./src/**/*.{ts,tsx} \"",
@@ -19,7 +19,7 @@
     "starter",
     "vscode"
   ],
-  "author": "tancredesimonin",
+  "author": "Tancrède Simonin",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.7",
