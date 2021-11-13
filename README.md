@@ -15,6 +15,15 @@ Best choice for building libraries or small components not related to specific f
 - Husky : blocks committing code with lint errors
 - Go Fast with ts-node-dev
 
+## Installation
+
+```sh
+npm i
+```
+
+It will install the packages and setup husky.
+You're ready to go!
+
 ## Scripts
 
 **Linting**
