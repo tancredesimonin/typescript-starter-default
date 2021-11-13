@@ -4,8 +4,21 @@
   "description": "simple starter typescript development environment",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier 'src/**/*.ts'",
-    "prettier:fix": "prettier --write 'src/**/*.ts'"
+    "prettier": "prettier  \"./src/**/*.{ts,tsx} \"",
+    "prettier:fix": "prettier --write  \"./src/**/*.{ts,tsx} \"",
+    "lint": "eslint  \"./src/**/*.{ts,tsx} \"",
+    "lint:fix": "eslint --fix  \"./src/**/*.{ts,tsx} \""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.ts": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "keywords": [
     "typescript",
